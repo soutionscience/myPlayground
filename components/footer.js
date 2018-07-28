@@ -4,11 +4,13 @@ import {Container} from 'bloomer';
 
 export default()=>{
     const footerStyle ={
-        position: 'absolute',
-        bottom: '10px',
+        background: '#192431',
+        color: 'white',
         left: '25%',
         lineHeight: '1.6',
-        color: '#222'
+        height: '200px',
+        padding: '16px',
+        MarginTop: '8px'
        
 
     }

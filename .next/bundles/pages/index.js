@@ -3,6 +3,221 @@ __NEXT_REGISTER_PAGE('/', function() {
           var comp =
       webpackJsonp([4],{
 
+/***/ "./components/banner.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bloomer__ = __webpack_require__("./node_modules/bloomer/bundles/bloomer.min.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bloomer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_bloomer__);
+var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\tutorials\\myPlayground\\components\\banner.js";
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function () {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+    isHidden: "touch",
+    style: {
+      backgroundSize: 'cover',
+      width: '100%'
+    },
+    src: "/static/images/web-development.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  });
+});
+
+/***/ }),
+
+/***/ "./components/certification.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return certs; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bloomer__ = __webpack_require__("./node_modules/bloomer/bundles/bloomer.min.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bloomer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_bloomer__);
+var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\tutorials\\myPlayground\\components\\certification.js";
+
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var certs =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(certs, _Component);
+
+  function certs() {
+    _classCallCheck(this, certs);
+
+    return _possibleConstructorReturn(this, (certs.__proto__ || Object.getPrototypeOf(certs)).apply(this, arguments));
+  }
+
+  _createClass(certs, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        style: {
+          paddingBottom: '18px'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Title"], {
+        isSize: 1,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        }
+      }, "Certifications"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Columns"], {
+        isCentered: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Column"], {
+        isSize: "1/4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+        src: "/static/images/node.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Subtitle"], {
+        isSize: 5,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        }
+      }, "Server-side Development with NodeJS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        }
+      }, "The Hong Kong University of Science and Technology"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, "Read More")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Column"], {
+        isSize: "1/4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+        src: "/static/images/angular2.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Subtitle"], {
+        tag: "h1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        }
+      }, "Server-side Development with NodeJS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        }
+      }, "The Hong Kong University of Science and Technology"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        }
+      }, "Read More")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Column"], {
+        isSize: "1/4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+        src: "/static/images/html.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Subtitle"], {
+        tag: "h1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        }
+      }, "Server-side Development with NodeJS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        }
+      }, "The Hong Kong University of Science and Technology"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        }
+      }, "Read More")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Column"], {
+        isSize: "1/4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+        src: "/static/images/rails.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Subtitle"], {
+        tag: "h1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        }
+      }, "Server-side Development with NodeJS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        }
+      }, "The Hong Kong University of Science and Technology"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        }
+      }, "Read More"))));
+    }
+  }]);
+
+  return certs;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+
+
+/***/ }),
+
 /***/ "./components/footer.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17,27 +232,29 @@ var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\tutorials\\myPlaygrou
 
 /* harmony default export */ __webpack_exports__["a"] = (function () {
   var footerStyle = {
-    position: 'absolute',
-    bottom: '10px',
+    background: '#192431',
+    color: 'white',
     left: '25%',
     lineHeight: '1.6',
-    color: '#222'
+    height: '200px',
+    padding: '16px',
+    MarginTop: '8px'
   };
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     style: footerStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     }
   }, "Built with React, Solidity, Web3, express, Bulma and some Magic By Rubin Njagi")));
 });
@@ -122,6 +339,369 @@ function (_Component) {
   }]);
 
   return Header;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+
+
+/***/ }),
+
+/***/ "./components/homeCards.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return myCards; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bloomer__ = __webpack_require__("./node_modules/bloomer/bundles/bloomer.min.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bloomer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_bloomer__);
+var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\tutorials\\myPlayground\\components\\homeCards.js";
+
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var myCards =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(myCards, _Component);
+
+  function myCards() {
+    _classCallCheck(this, myCards);
+
+    return _possibleConstructorReturn(this, (myCards.__proto__ || Object.getPrototypeOf(myCards)).apply(this, arguments));
+  }
+
+  _createClass(myCards, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Columns"], {
+        isCentered: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Column"], {
+        isSize: {
+          mobile: 8,
+          default: '1/3'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Card"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeader"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderTitle"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        }
+      }, "Component"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderIcon"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
+        className: "fa fa-angle-down",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
+      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardImage"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+        isRatio: "4:3",
+        src: "https://via.placeholder.com/1280x960",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardContent"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Media"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["MediaLeft"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+        isSize: "48x48",
+        src: "https://via.placeholder.com/96x96",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["MediaContent"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Title"], {
+        isSize: 4,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        }
+      }, "John Wick"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Subtitle"], {
+        isSize: 6,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        }
+      }, "@John Wick"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Content"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        }
+      }, "People Keep Asking If I\u2019m Back, And I Haven\u2019t Really Had An Answer, But Now, Yeah, I\u2019m Thinking I\u2019m Back.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        }
+      }, "11:09 PM - 30 October 2014"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Column"], {
+        isSize: {
+          mobile: '1',
+          default: '1/3'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Card"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeader"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderTitle"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        }
+      }, "Component"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderIcon"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
+        className: "fa fa-angle-down",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        }
+      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardImage"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+        isRatio: "4:3",
+        src: "https://via.placeholder.com/1280x960",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardContent"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Media"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["MediaLeft"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+        isSize: "48x48",
+        src: "https://via.placeholder.com/96x96",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["MediaContent"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Title"], {
+        isSize: 4,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        }
+      }, "John Wick"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Subtitle"], {
+        isSize: 6,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        }
+      }, "@John Wick"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Content"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        }
+      }, "People Keep Asking If I\u2019m Back, And I Haven\u2019t Really Had An Answer, But Now, Yeah, I\u2019m Thinking I\u2019m Back.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        }
+      }, "11:09 PM - 30 October 2014"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Column"], {
+        isSize: {
+          mobile: 8,
+          default: '1/6'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Card"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeader"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderTitle"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        }
+      }, "Component"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderIcon"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
+        className: "fa fa-angle-down",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        }
+      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardImage"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+        isRatio: "4:3",
+        src: "https://via.placeholder.com/1280x960",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardContent"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Media"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["MediaLeft"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
+        isSize: "48x48",
+        src: "https://via.placeholder.com/96x96",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["MediaContent"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Title"], {
+        isSize: 4,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        }
+      }, "John Wick"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Subtitle"], {
+        isSize: 6,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        }
+      }, "@John Wick"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Content"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        }
+      }, "People Keep Asking If I\u2019m Back, And I Haven\u2019t Really Had An Answer, But Now, Yeah, I\u2019m Thinking I\u2019m Back.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 100
+        }
+      }, "11:09 PM - 30 October 2014"))))));
+    }
+  }]);
+
+  return myCards;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 
@@ -262,6 +842,7 @@ function (_Component) {
           lineNumber: 15
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
+        href: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -275,14 +856,14 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 17
         }
-      }), " Bloomer"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
+      }), " Logo"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
         isHidden: "desktop",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
-        className: "fa fa-github",
+        className: "fab fa-github",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
@@ -340,7 +921,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 31
         }
-      }, "Documentation"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarDropdown"], {
+      }, "DAPPS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarDropdown"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
@@ -351,13 +932,13 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 33
         }
-      }, "One A"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
+      }, "KickStarter"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
         href: "#/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
         }
-      }, "Two B"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarDivider"], {
+      }, "Fantasy footbal Coin"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarDivider"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35
@@ -368,55 +949,73 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 36
         }
-      }, "Two A")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarEnd"], {
+      }, "Playground"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
+        href: "#/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        }
+      }, " Games"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
+        href: "#/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 40
+        }
+      }, " About Me"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
+        href: "#/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        }
+      }, " Contacts")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarEnd"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
         href: "https://github.com/AlgusDark/bloomer",
         isHidden: "touch",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 44
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
-        className: "fa fa-github",
+        className: "fab fa-github",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 46
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
         href: "https://twitter.com/AlgusDark",
         isHidden: "touch",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 48
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
-        className: "fa fa-twitter",
+        className: "fab fa-twitter",
         style: {
           color: '#55acee'
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 49
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["NavbarItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 51
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Field"], {
         isGrouped: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 52
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Control"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 53
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Button"], {
         id: "twitter",
@@ -427,18 +1026,18 @@ function (_Component) {
         href: "https://twitter.com/intent/tweet?text=bloomer:\r a set of React Stateless Components for bulma.io&url=http://bloomer.js.org&via=AlgusDark",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 54
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
-        className: "fa fa-twitter",
+        className: "fab fa-twitter",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 57
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 58
         }
       }, "Tweet")))))))));
     }
@@ -530,6 +1129,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__style_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bloomer__ = __webpack_require__("./node_modules/bloomer/bundles/bloomer.min.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bloomer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_bloomer__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_homeCards__ = __webpack_require__("./components/homeCards.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_certification__ = __webpack_require__("./components/certification.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_banner__ = __webpack_require__("./components/banner.js");
 var _jsxFileName = "C:\\Users\\Solut\\Google Drive\\work2\\tutorials\\myPlayground\\pages\\index.js";
 
 
@@ -553,6 +1155,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
+
+
 var mainPage =
 /*#__PURE__*/
 function (_Component) {
@@ -566,24 +1171,44 @@ function (_Component) {
 
   _createClass(mainPage, [{
     key: "render",
+    //    rederCards(){
+    //        return(<div>
+    //            <HomeCard/>
+    //        </div>)
+    //    }
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_layout__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 20
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_bloomer__["Container"], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_banner__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 21
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_bloomer__["Container"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
         className: "test",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 23
         }
-      }, "Welcome")));
+      }, "Welcome"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_homeCards__["a" /* default */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_certification__["a" /* default */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        }
+      })));
     }
   }]);
 

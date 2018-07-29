@@ -43,6 +43,7 @@ import { Container, Column, Columns, Card, CardHeader, CardContent, Image, Media
 </a>
     </Column>
     <Column isSize={{ mobile: '1', default: '1/3'}}>
+    <a>
     <Card>
     <CardHeader>
         <CardHeaderTitle>
@@ -73,8 +74,10 @@ import { Container, Column, Columns, Card, CardHeader, CardContent, Image, Media
         </Content>
     </CardContent>
 </Card>
+</a>
     </Column>
     <Column isSize={{ mobile: 8, default: '1/6'}}>
+    <a>
     <Card>
     <CardHeader>
         <CardHeaderTitle>
@@ -106,6 +109,7 @@ import { Container, Column, Columns, Card, CardHeader, CardContent, Image, Media
         </Content>
     </CardContent>
 </Card>
+</a>
     </Column>
     
 </Columns>

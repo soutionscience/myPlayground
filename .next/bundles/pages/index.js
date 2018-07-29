@@ -503,208 +503,218 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 45
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Card"], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeader"], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Card"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderTitle"], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeader"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
         }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderTitle"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        }
       }, "Websites"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderIcon"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 52
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
         className: "fa fa-angle-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 53
         }
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardImage"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 56
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
         isRatio: "4:2",
         src: "/static/images/website5.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 57
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardContent"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 59
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Media"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 60
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["MediaLeft"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 61
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
         isSize: "48x48",
         src: "https://via.placeholder.com/96x96",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 62
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["MediaContent"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 64
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Title"], {
         isSize: 4,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 65
         }
       }, "Websites"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Content"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 69
         }
       }, "Collection of production ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 70
         }
       }), "ready Fullstack Web development ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 71
         }
       }), "projects", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 72
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 73
         }
-      }, "Express, angular, react, express, mongo, javascript"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Column"], {
+      }, "Express, angular, react, express, mongo, javascript")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Column"], {
         isSize: {
           mobile: 8,
           default: '1/6'
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Card"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeader"], {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 79
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderTitle"], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
         }
-      }, "Games"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderIcon"], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Card"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeader"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderTitle"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 83
+        }
+      }, "Games"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardHeaderIcon"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Icon"], {
         className: "fa fa-angle-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 87
         }
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardImage"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 90
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
         isRatio: "4:2",
         src: "/static/images/flappy.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 91
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["CardContent"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 93
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Media"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 94
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["MediaLeft"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 95
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Image"], {
         isSize: "48x48",
         src: "https://via.placeholder.com/96x96",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 96
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["MediaContent"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 98
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Title"], {
         isSize: 4,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 99
         }
       }, "Games"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_bloomer__["Content"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 103
         }
       }, "A collection of fun development projects", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 105
         }
       }), " mostly games  ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 105
         }
       }), "developed mostly in javascript", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 107
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 108
         }
-      }, "javascript, html, css"))))));
+      }, "javascript, html, css")))))));
     }
   }]);
 

@@ -33,7 +33,7 @@ export default class myNavBar extends Component{
                 <NavbarItem href='#/'>KickStarter</NavbarItem>
                 <NavbarItem href='#/'>Fantasy footbal Coin</NavbarItem>
                 <NavbarDivider />
-                <NavbarItem href='#/'>Playground</NavbarItem>
+                <NavbarItem href='/dapps/playground'>Playground</NavbarItem>
             </NavbarDropdown>
         </NavbarItem>
         <NavbarItem href='#/'> Games</NavbarItem>
